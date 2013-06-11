@@ -5,3 +5,11 @@ oml_typing_test_homepage:
 index:
     pattern: /
     defaults: { _controller: OMLTypingTestBundle:StaticPages:index }
+
+start:
+    pattern: /test/{id}/start
+    defaults: { _controller: OMLTypingTestBundle:Test:start }
+
+finish:
+    pattern: /test/{id}/finish
+    defaults: { _controller: OMLTypingTestBundle:Test:finish }
