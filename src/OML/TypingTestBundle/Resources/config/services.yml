@@ -1,0 +1,7 @@
+parameters:
+#    oml_typing_test.example.class: OML\TypingTestBundle\Example
+
+services:
+#    oml_typing_test.example:
+#        class: %oml_typing_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

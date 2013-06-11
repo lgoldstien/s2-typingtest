@@ -1,0 +1,4 @@
+oml_typing_test:
+    resource: "@OMLTypingTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
