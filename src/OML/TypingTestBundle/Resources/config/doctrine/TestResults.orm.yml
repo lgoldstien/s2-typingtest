@@ -1,0 +1,16 @@
+OML\TypingTestBundle\Entity\TestResults:
+    type: entity
+    table: null
+    repositoryClass: OML\TypingTestBundle\Entity\TestResultsRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        answer:
+            type: text
+        dateCreated:
+            type: datetime
+            column: date_created
+    lifecycleCallbacks: {  }
