@@ -80,32 +80,4 @@ class TestResults
     {
         return $this->dateCreated;
     }
-    /**
-     * @var string
-     */
-    private $answer_key;
-
-
-    /**
-     * Set answer_key
-     *
-     * @param string $answerKey
-     * @return TestResults
-     */
-    public function setAnswerKey($answerKey)
-    {
-        $this->answer_key = $answerKey;
-    
-        return $this;
-    }
-
-    /**
-     * Get answer_key
-     *
-     * @return string 
-     */
-    public function getAnswerKey()
-    {
-        return $this->answer_key;
-    }
 }

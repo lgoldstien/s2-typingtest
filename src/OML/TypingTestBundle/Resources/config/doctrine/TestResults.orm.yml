@@ -13,4 +13,6 @@ OML\TypingTestBundle\Entity\TestResults:
         dateCreated:
             type: datetime
             column: date_created
+        answer_key:
+            type: text
     lifecycleCallbacks: {  }
