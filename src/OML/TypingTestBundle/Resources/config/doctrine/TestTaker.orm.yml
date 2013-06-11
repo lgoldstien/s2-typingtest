@@ -1,0 +1,17 @@
+OML\TypingTestBundle\Entity\TestTaker:
+    type: entity
+    table: null
+    repositoryClass: OML\TypingTestBundle\Entity\TestTakerRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        fullname:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
