@@ -8,6 +8,7 @@ class StaticPagesController extends Controller
 {
     public function indexAction()
     {
+    	return $this->render('OMLTypingTestBundle:StaticPages:index.html.twig');
     }
 
 }
