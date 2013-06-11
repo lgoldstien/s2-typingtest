@@ -1,0 +1,19 @@
+OML\TypingTestBundle\Entity\Test:
+    type: entity
+    table: null
+    repositoryClass: OML\TypingTestBundle\Entity\TestRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        title:
+            type: string
+            length: 255
+        text:
+            type: text
+        audio:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
