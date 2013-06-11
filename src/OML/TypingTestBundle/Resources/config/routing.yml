@@ -1,3 +1,7 @@
 oml_typing_test_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: OMLTypingTestBundle:Default:index }
+
+index:
+    pattern: /
+    defaults: { _controller: OMLTypingTestBundle:StaticPages:index }
